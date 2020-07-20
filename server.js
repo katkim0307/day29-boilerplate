@@ -11,6 +11,7 @@ app.get('/api/students', (req, res) => {
     const students = [
         {id: 1, firstName: 'Kat', lastName: 'Kim'},
         {id: 2, firstName: 'Sue', lastName: 'Ham'},
+        {id: 3, firstName: 'Kate', lastName: 'Quezada'},
     ]
     res.json(students);
 });
