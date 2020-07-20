@@ -20,7 +20,7 @@ export default class Students extends Component {
         const { students } = this.state;
         if (students.length) {
             console.log(students);
-            return <div>We got students</div>;
+            return <div>We got students - check them out!</div>;
         }
         else {
             return <div>Loading students...</div>;
